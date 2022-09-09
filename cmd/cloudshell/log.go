@@ -1,9 +1,10 @@
 package main
 
 import (
-	"cloudshell/internal/log"
 	"net/http"
 	"runtime"
+
+	"github.com/asadarafat/cloudshell/internal/log"
 )
 
 // createRequestLog returns a logger with relevant request fields

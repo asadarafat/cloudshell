@@ -1,9 +1,10 @@
 package main
 
 import (
-	"cloudshell/internal/log"
 	"fmt"
 	"strings"
+
+	"github.com/asadarafat/cloudshell/internal/log"
 
 	"github.com/usvc/go-config"
 )
