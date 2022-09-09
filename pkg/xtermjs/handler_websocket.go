@@ -2,7 +2,6 @@ package xtermjs
 
 import (
 	"bytes"
-	"cloudshell/internal/log"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -11,6 +10,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/asadarafat/cloudshell/internal/log"
 
 	"github.com/creack/pty"
 	"github.com/google/uuid"
